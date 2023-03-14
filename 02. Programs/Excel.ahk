@@ -1,7 +1,7 @@
 ;Copy and pasted the script used to move the excel sheet information to the YouTube channel form iCue_F24_macro_keybaord.ahk to here. The loop function never ended up being used.
 
 
-;Dhammarato Archive title + description from Excel to YouTube
+;Archive title + description from Excel to YouTube
 
 	;BEFORE LOOP
 	YTScrollBarX = 1911

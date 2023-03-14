@@ -2,6 +2,7 @@
     ^q::Options("google")
     ^+q::Options("wikipedia")
     ^+e::Options("chatgpt")
+    ^+f::Options("scholar")
         
 }
 
@@ -11,19 +12,14 @@
                 ;w
             }
             if (CtrlShiftX = "etymonline"){
-                Send, ^c
-                Run, chrome.exe "https://www.etymonline.com/search?q=%clipboard%" " --new-window "
+                Run, chrome.exe "https://www.etymonline.com/" " --new-tab "
                 Return             
             }
             if (CtrlShiftX = "google"){
-                Send, ^c
-                Sleep 50
                 Run, chrome.exe "https://www.google.com/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "wikipedia"){
-                Send, ^c
-                Sleep 50
                 Run, chrome.exe "https://en.wikipedia.org/wiki/Special:Search" " --new-tab "
                 Return
             }
@@ -31,7 +27,10 @@
                 Run, chrome.exe "https://chat.openai.com/chat" " --new-tab "
                 Return
             }
-
+            if (CtrlShiftX = "scholar"){
+                Run, chrome.exe "https://scholar.google.com/" " --new-tab "
+                Return
+            }
             if (CtrlShiftX = "contents"){
                 Send, {Down 2}
                 Send, {BackSpace 2}
