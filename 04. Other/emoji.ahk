@@ -132,5 +132,23 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;Paraguay Flag
 :*:]py::🇵🇾
 
+;Romania Flag
+:*:]ro::🇷🇴
+
+;Slovakia Flag
+:*:]sk::🇸🇰
+
+;South Korea Flag
+:*:]kr::🇰🇷
+
+;United Kingdom Flag
+:*:]gb::🇬🇧
+
+; ; Flag
+; :*:] ::
+
+; ; Flag
+; :*:] ::
+
 ; ; Flag
 ; :*:] ::
