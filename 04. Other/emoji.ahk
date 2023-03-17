@@ -117,17 +117,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;South Africa Flag
 :*:]za::🇿🇦
 
-; Flag
+;Slovania Flag
 :*:]si::🇸🇮
 
-; England Flag
+;England Flag
 :*:]en::🏴󠁧󠁢󠁥󠁮󠁧󠁿
 
-; Israel Flag
+;Israel Flag
 :*:]il::🇮🇱
 
-; ; Flag
-; :*:] ::
+;Lithuania Flag
+:*:]lt::🇱🇹
 
 ; ; Flag
 ; :*:] ::
