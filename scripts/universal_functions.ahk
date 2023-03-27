@@ -9,8 +9,8 @@
 
 { ;===============================#INCLUDED FILES================================
     #Include emoji.ahk
-    #Include Temporary.ahk
-    
+    #Include hotkeys.ahk
+    #Include hotstrings.ahk
 }
 
 { ;==================================FUNCTIONS===================================
