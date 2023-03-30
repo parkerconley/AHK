@@ -2,8 +2,7 @@
     ^q::Options("google")
     ^+q::Options("wikipedia")
     ^+e::Options("chatgpt")
-    ^+f::Options("scholar")
-        
+    ^+f::Options("scholar")      
 }
 
     ;assign the most popular options with separate triggers
