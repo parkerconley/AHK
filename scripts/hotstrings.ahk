@@ -1,3 +1,12 @@
+{ ;===================================SETTINGS===================================
+    #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+    #InstallKeybdHook
+    #InstallMouseHook
+    #SingleInstance ; Only one instance of the script can run at a time.
+    SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+    SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+}
+
 { ;===================================HOTSTRINGS===================================
     :*:;di::List the differences between the following concepts: 
     :*:;si::List the similarities between the following concepts: 
