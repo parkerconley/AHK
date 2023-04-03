@@ -42,8 +42,10 @@
             }
             if (CtrlShiftX = "web archive"){
                 Send, ^l
-                Sleep, 200
+                Send, ^l
+                Send, ^l
                 Send, ^c
+                Sleep, 10
                 Run, chrome.exe "https://web.archive.org/"%clipboard% " --new-tab "
                 Return
             }
