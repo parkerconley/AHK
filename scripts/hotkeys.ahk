@@ -10,6 +10,7 @@
 { ;===================================TEMPORARY===================================
     ^q::Options("scholar")
     ^+q::Options("wikipedia")
+    ^e::Options("web archive")
     ^+e::Options("chatgpt")
     ^+f::Options("etymonline")     
 }
@@ -39,6 +40,14 @@
                 Run, chrome.exe "https://scholar.google.com/" " --new-tab "
                 Return
             }
+            if (CtrlShiftX = "web archive"){
+                Send, ^l
+                Sleep, 200
+                Send, ^c
+                Run, chrome.exe "https://web.archive.org/"%clipboard% " --new-tab "
+                Return
+            }
+
             if (CtrlShiftX = "contents"){
                 Send, {Down 2}
                 Send, {BackSpace 2}
