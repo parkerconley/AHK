@@ -33,7 +33,7 @@
                 Return
             }
             if (CtrlShiftX = "chatgpt"){
-                Run, chrome.exe "https://chat.openai.com/chat?model=gpt-4" " --new-tab "
+                Run, chrome.exe "https://chat.openai.com/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "scholar"){
