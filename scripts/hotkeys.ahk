@@ -10,9 +10,9 @@
 { ;===================================TEMPORARY===================================
     ^q::Options("scholar")
     ^+q::Options("wikipedia")
-    ^e::Options("web archive")
+    ^e::Options("metahor")
     ^+e::Options("chatgpt")
-    ^+f::Options("etymonline")     
+    ^+f::Options("web archive")     
 }
 
     ;assign the most popular options with separate triggers
@@ -38,6 +38,10 @@
             }
             if (CtrlShiftX = "scholar"){
                 Run, chrome.exe "https://scholar.google.com/" " --new-tab "
+                Return
+            }
+            if (CtrlShiftX = "metaphor"){
+                Run, chrome.exe "https://metaphor.systems" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "web archive"){
