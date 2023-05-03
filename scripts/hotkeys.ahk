@@ -10,7 +10,7 @@
 { ;===================================TEMPORARY===================================
     ^q::Options("scholar")
     ^+q::Options("wikipedia")
-    ^e::Options("metahor")
+    ^e::Options("metaphor")
     ^+e::Options("chatgpt")
     ^+f::Options("web archive")     
 }
@@ -41,7 +41,7 @@
                 Return
             }
             if (CtrlShiftX = "metaphor"){
-                Run, chrome.exe "https://metaphor.systems" " --new-tab "
+                Run, chrome.exe "https://metaphor.systems/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "web archive"){
