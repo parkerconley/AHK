@@ -12,6 +12,7 @@
     ^+q::Options("wikipedia")
     ^e::Options("metaphor")
     ^+e::Options("chatgpt")
+    ^+s::Options("bard")
     ^+f::Options("web archive")     
 }
 
@@ -34,6 +35,10 @@
             }
             if (CtrlShiftX = "chatgpt"){
                 Run, chrome.exe "https://chat.openai.com/?model=gpt-4" " --new-tab "
+                Return
+            }
+            if (CtrlShiftX = "bard"){
+                Run, chrome.exe "https://bard.google.com/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "scholar"){
