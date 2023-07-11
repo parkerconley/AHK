@@ -37,8 +37,8 @@
                 Run, chrome.exe "https://chat.openai.com/?model=gpt-4" " --new-tab "
                 Return
             }
-            if (CtrlShiftX = "bard"){
-                Run, chrome.exe "https://bard.google.com/" " --new-tab "
+            if (CtrlShiftX = "claude"){
+                Run, chrome.exe "https://claude.ai/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "scholar"){
