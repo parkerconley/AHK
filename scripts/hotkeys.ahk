@@ -12,7 +12,7 @@
     ^+q::Options("wikipedia")
     ^e::Options("metaphor")
     ^+e::Options("chatgpt")
-    ^+s::Options("bard")
+    ^+s::Options("claude")
     ^+f::Options("web archive")     
 }
 
