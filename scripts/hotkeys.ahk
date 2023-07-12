@@ -13,7 +13,8 @@
     ^e::Options("metaphor")
     ^+e::Options("chatgpt")
     ^+s::Options("claude")
-    ^+f::Options("web archive")     
+    ^+f::Options("web archive")    
+    ^+z::Options("fatebook") 
 }
 
     ;assign the most popular options with separate triggers
@@ -47,6 +48,10 @@
             }
             if (CtrlShiftX = "metaphor"){
                 Run, chrome.exe "https://metaphor.systems/" " --new-tab "
+                Return
+            }
+            if (CtrlShiftX = "fatebook"){
+                Run, chrome.exe "https://www.fatebook.io/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "web archive"){
