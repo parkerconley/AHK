@@ -8,8 +8,8 @@
 }
 
 { ;===================================TEMPORARY===================================
-    ^q::Options("elicit")
-    ^+q::Options("fatebook")
+    ^q::Options("fatebook")
+    ^+q::Options("elicit")
     ^e::Options("metaphor")
     ^+e::Options("chatgpt")
     ^+s::Options("claude")
