@@ -8,13 +8,12 @@
 }
 
 { ;===================================TEMPORARY===================================
-    ^q::Options("scholar")
-    ^+q::Options("wikipedia")
+    ^q::Options("elicit")
+    ^+q::Options("fatebook")
     ^e::Options("metaphor")
     ^+e::Options("chatgpt")
     ^+s::Options("claude")
     ^+f::Options("web archive")    
-    ^+z::Options("fatebook") 
 }
 
     ;assign the most popular options with separate triggers
@@ -40,6 +39,10 @@
             }
             if (CtrlShiftX = "claude"){
                 Run, chrome.exe "https://claude.ai/" " --new-tab "
+                Return
+            }
+            if (CtrlShiftX = "elicit"){
+                Run, chrome.exe "https://elicit.org/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "scholar"){
