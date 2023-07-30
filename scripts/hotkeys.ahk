@@ -10,6 +10,7 @@
 { ;===================================TEMPORARY===================================
     ^q::Options("fatebook")
     ^+q::Options("elicit")
+    ^+!q::Options("connectedpapers")
     ^e::Options("metaphor")
     ^+e::Options("chatgpt")
     ^+s::Options("claude")
@@ -43,6 +44,10 @@
             }
             if (CtrlShiftX = "elicit"){
                 Run, chrome.exe "https://elicit.org/" " --new-tab "
+                Return
+            }
+            if (CtrlShiftX = "connectedpapers"){
+                Run, chrome.exe "https://www.connectedpapers.com/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "scholar"){
