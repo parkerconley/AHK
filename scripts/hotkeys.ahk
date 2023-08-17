@@ -15,6 +15,7 @@
     ^+e::Options("chatgpt")
     ^+s::Options("claude")
     ^+f::Options("web archive")    
+    ^b::Options("bard")
 }
 
     ;assign the most popular options with separate triggers
@@ -62,6 +63,12 @@
                 Run, chrome.exe "https://www.fatebook.io/" " --new-tab "
                 Return
             }
+            if (CtrlShiftX = "bard"){
+                Run, chrome.exe "https://bard.google.com/" " --new-tab "
+                Return
+            }
+
+        
             if (CtrlShiftX = "web archive"){
                 Send, ^l
                 Send, ^l
