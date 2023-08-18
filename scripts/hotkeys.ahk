@@ -15,7 +15,7 @@
     ^+e::Options("chatgpt")
     ^+s::Options("claude")
     ^+f::Options("web archive")    
-    ^b::Options("bard")
+    ^+b::Options("bard")
 }
 
     ;assign the most popular options with separate triggers
