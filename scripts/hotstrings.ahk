@@ -9,14 +9,19 @@
 
 { ;===================================HOTSTRINGS===================================
 
-    ; PROMPTS
-    :*:;sd::List the similarities differences between the following concepts: {Space}
-    :*:;ad::Explain the following concept using (1) plain language, (2) technical details, (3) its history, (4) an example, (5) an analogy, and (6) an ASCII diagram: {Space}
-    :*:;ot::List the other terms similar to the following concept: {Space}
-    :*:;ca:: ;anki flash card creator
-    :*:;af::Context: (where and what is this) {Space} +{Enter}Outcome: (what is being accomplished) {Space} +{Enter}Tone/Style: (funny, serious, engaging, viral, etc.) {Space} +{Enter}Complexity: (how deep should I go, grade level, education level) {Space} +{Enter}Questions: Ask me any questions that would help you better achieve the outcome. {Space} +{Enter} +{Enter}[information]
-    :*:;mr:: Surround (with double square brackets) every proper noun, family member, mode of transport, company or workplace name or type, hobby, concept, keyword, or any other words or phrases that are very important to this story and/or might come up in future journaling prompts that it could be worth backlinking in my Obsidian graph. Capitalize the first letter of the first word in each linked reference. If the words after the first word are not usually capitalized, don't capitalize them.+{Enter}
+:*:;pc::https://calendly.com/parkerconley
+; PROMPTS
 
-    ; VW
-    :*:;vbtv::Hello,+{Enter}+{Enter}We're sorry for the inconvenience. Please email help@volleyballworld.tv for support. +{Enter}+{Enter}Please provide them with a clear description of your concern and a way to get in contact with you, including:+{Enter}- Type of issue (e.g., garbling, captions cut off at certain times or on certain episodes of certain programming; +{Enter}- Website or application where you viewed the programming +{Enter}- Approximate time and date that the issue occurred; and +{Enter}- Your name and contact information
+:*:;s::
+(
+Can you provide a comprehensive summary of the given text? The summary should cover all the key points and main ideas presented in the original text, while also condensing the information into a concise and easy-to-understand format. Please ensure that the summary includes relevant details and examples that support the main ideas, while avoiding any unnecessary information or repetition. The length of the summary should be appropriate for the length and complexity of the original text, providing a clear and accurate overview without omitting any important information.
+)
+return
+
+:*:;a::
+(
+Use the following instructions to write a spaced repetition prompt which will reinforce ideas from the resource included in this message through retrieval practice. Good spaced repetition prompts should follow these principles: (1) Be focused: They should concentrate on one detail at a time to avoid unfocused questions that could hinder recall and concentration. (2) Be precise: They need to be explicit about what they're asking to avoid ambiguity and to properly activate targeted knowledge. (3) Be consistent: Each recall should aim to 'light the same bulbs', reinforcing the same knowledge each time. (4) Be tractable: They should be designed to nearly always yield a correct answer, which might require breaking down the task or adding cues. (5) Be effortful: The act of retrieval should involve some level of difficulty. The answer shouldn't be trivial or inferred too quickly. The question should focus retrieval on the reinforcement target without supplying, overconstraining, or unnecessarily cuing the answer. (6) Be opinionated: Emphasize rich understanding and important ideas over trivial details. (7) Be concise: Questions and answers should be as short as possible. (8) Be context-independent: In review, this prompt will be interleaved with many others about many topics. The prompt must cue or supply whatever context is necessary to understand the question. They should not assume one has read the text that generated the prompts. It shouldn't address the text or use the context of the text in any way. Please provide the best 3 possible spaced repetition prompts for each concept, providing both question and answer. Make sure your prompts follow all the principles above. Mention which of the following desired properties it has: focused, precise, consistent, tractable, effortful, opinionated, concise, context-independent (just write the words, without explanation). Make sure that you are reinforcing the target concept. Format your output in Markdown, with math expressed as inline LaTeX wrapped in $ characters. Here is an example card... Q: (new line) What is a model in engineering? (new line) A: (new line) an abstract representation of some system that eliminates unnecessary details (new line) (new line) *Properties: focused, precise, consistent, tractable, effortful, opinionated, concise, context-independent*)
+return
+)
+return
 }

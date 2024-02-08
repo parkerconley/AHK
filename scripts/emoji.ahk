@@ -127,6 +127,9 @@
 ;England Flag
 :*:]en::🏴󠁧󠁢󠁥󠁮󠁧󠁿
 
+;India Flag
+:*:]in::🇮🇳
+
 ;Israel Flag
 :*:]il::🇮🇱
 
@@ -147,6 +150,10 @@
 
 ;United Kingdom Flag
 :*:]gb::🇬🇧
+
+;Vietnam Flag
+:*:]vn::🇻🇳
+
 
 ; ; Flag
 ; :*:] ::

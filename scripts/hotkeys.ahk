@@ -13,9 +13,10 @@
     ^+!q::Options("connectedpapers")
     ^e::Options("metaphor")
     ^+e::Options("chatgpt")
+    ^+g::Options("ankigpt")
+    ^+h::Options("keymapgpt")
     ^+s::Options("claude")
-    ^+f::Options("web archive")    
-    ^+b::Options("bard")
+    ^+b::Options("web archive")
 }
 
     ;assign the most popular options with separate triggers
@@ -39,6 +40,14 @@
                 Run, chrome.exe "https://chat.openai.com/?model=gpt-4" " --new-tab "
                 Return
             }
+            if (CtrlShiftX = "ankigpt"){
+                Run, chrome.exe "https://chat.openai.com/g/g-7ypvy5dkD-flashcard-creator" " --new-tab "
+                Return
+            }
+            if (CtrlShiftX = "keymapgpt"){
+                Run, chrome.exe "https://chat.openai.com/g/g-hkpHH2Adc-keyword-map-creator" " --new-tab "
+                Return
+            }
             if (CtrlShiftX = "claude"){
                 Run, chrome.exe "https://claude.ai/" " --new-tab "
                 Return
@@ -56,7 +65,7 @@
                 Return
             }
             if (CtrlShiftX = "metaphor"){
-                Run, chrome.exe "https://metaphor.systems/" " --new-tab "
+                Run, chrome.exe "https://search.metaphor.systems/" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "fatebook"){
