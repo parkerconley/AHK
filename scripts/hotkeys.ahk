@@ -11,11 +11,11 @@
     ^q::Options("fatebook")
     ^+q::Options("elicit")
     ^+!q::Options("connectedpapers")
-    ^e::Options("metaphor")
+    ^e::Options("exa")
     ^+e::Options("chatgpt")
     ^+g::Options("ankigpt")
     ^+h::Options("keymapgpt")
-    ^+s::Options("claude")
+    ^+s::Options("gemini")
     ^+b::Options("web archive")
 }
 
@@ -64,16 +64,16 @@
                 Run, chrome.exe "https://scholar.google.com/" " --new-tab "
                 Return
             }
-            if (CtrlShiftX = "metaphor"){
-                Run, chrome.exe "https://search.metaphor.systems/" " --new-tab "
+            if (CtrlShiftX = "exa"){
+                Run, chrome.exe "https://exa.ai/search" " --new-tab "
                 Return
             }
             if (CtrlShiftX = "fatebook"){
                 Run, chrome.exe "https://www.fatebook.io/" " --new-tab "
                 Return
             }
-            if (CtrlShiftX = "bard"){
-                Run, chrome.exe "https://bard.google.com/" " --new-tab "
+            if (CtrlShiftX = "gemini"){
+                Run, chrome.exe "https://gemini.google.com/" " --new-tab "
                 Return
             }
 
