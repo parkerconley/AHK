@@ -8,13 +8,12 @@
 }
 
 { ;===================================TEMPORARY===================================
-    ^q::Options("fatebook")
+    ^q::Options("raindrop")
     ^+q::Options("elicit")
     ^+!q::Options("connectedpapers")
     ^e::Options("exa")
     ^+e::Options("chatgpt")
     ^+g::Options("ankigpt")
-    ^+t::Options("raindrop")
     ^+h::Options("keymapgpt")
     ^+s::Options("gemini")
     ^+b::Options("web archive")
