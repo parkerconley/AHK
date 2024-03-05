@@ -14,6 +14,7 @@
     ^e::Options("exa")
     ^+e::Options("chatgpt")
     ^+g::Options("ankigpt")
+    ^+t::Options("raindrop")
     ^+h::Options("keymapgpt")
     ^+s::Options("gemini")
     ^+b::Options("web archive")
@@ -74,6 +75,10 @@
             }
             if (CtrlShiftX = "gemini"){
                 Run, chrome.exe "https://gemini.google.com/" " --new-tab "
+                Return
+            }
+            if (CtrlShiftX = "raindrop"){
+                Run, chrome.exe "https://app.raindrop.io/" " --new-tab "
                 Return
             }
 
