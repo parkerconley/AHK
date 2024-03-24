@@ -15,7 +15,7 @@
     ^+e::Options("chatgpt")
     ^+g::Options("ankigpt")
     ^+h::Options("keymapgpt")
-    ^+s::Options("gemini")
+    ^+s::Options("claude")
     ^+b::Options("web archive")
 }
 
@@ -112,4 +112,5 @@
 
             Return
     }
+
 ; insperation for this comes from this video: https://www.youtube.com/watch?v=aIlssnAwK3M&list=WL&index=1&t=185s
